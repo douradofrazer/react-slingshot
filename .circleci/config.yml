@@ -1,11 +1,6 @@
 version: 2.1
 
 jobs:
-  # print_hello:
-    docker:
-      - image: circleci/node:13.8.0
-  #   steps:
-  #     - run: echo "hello"
   build:
     docker:
       - image: circleci/node:13.8.0
